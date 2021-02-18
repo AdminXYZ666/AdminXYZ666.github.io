@@ -12,29 +12,17 @@
     
     
     
-    <title>Admin小谢</title>
-    <link href="https://adminxyz666.github.io" rel="prefetch" />
+    <title>关于我 | 小谢</title>
+    <link href=”https://adminxyz666.github.io/“ rel=”prefetch” />
 
-    
-<link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/aos.css">
 <link rel="stylesheet" href="/css/style.css">
-
-    
-<script src="/js/jquery.min.js"></script>
-
-    
-<script src="/js/bootstrap.min.js"></script>
-
-    
-<script src="/js/aos.js"></script>
-
-    
-<script src="/js/highslide/highslide-full.min.js"></script>
-
-    
-<link rel="stylesheet" href="/js/highslide/highslide.css">
-
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/aos.js"></script>
+    <script src="/js/highslide/highslide-full.min.js"></script>
+    <link rel="stylesheet" href="/js/highslide/highslide.css">
     <style type="text/css">
         @media (max-width: 768px) {
             body {
@@ -45,10 +33,18 @@
         }
     </style>
     
+    <script src="//cdn1.lncld.net/static/js/3.4.2/av-min.js"></script>
+    <script>
+      AV.init({
+        appId: '6OTkVF2aNAnVRRuTPpOP934w-gzGzoHsz',
+        appKey: '83MfiENky0XoWE8XHM3gUpox'
+      })
+    </script>
+    
     <!--<script type="text/javascript">
       if (document.images) {
         var avatar = new Image();
-        avatar.src = '/imgs/%E7%90%86%E4%B9%8B%E5%BE%8B%E8%80%85.png'
+        avatar.src = '/imgs/avatar.jpg'
         var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
         var previewsPreLoad = []
         for(var i = 0; i < length; i++) {
@@ -57,7 +53,7 @@
         }
       }
     </script>-->
-<meta name="generator" content="Hexo 5.3.0"></head>
+</head>
 <body>
     <!-- 背景轮播图功能 -->
     <section class="hidden-xs">
@@ -82,7 +78,6 @@
             <a href="/archives" class="menuItem" style="left: 80.3109%; top: 67.5%;">归档</a>
             <a href="/about" class="menuItem" style="left: 50%; top: 85%;">关于</a>
             <a href="/message" class="menuItem" style="left: 19.6891%; top: 67.5%;">留言板</a>
-
             
             <a class="menuItem" style="left: 19.6891%; top: 32.5%;">上一页</a>
             
@@ -112,7 +107,7 @@
                     }
                 </style>
                 <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Admin小谢</div>
+                <div class="navbar-brand">小谢</div>
                 
             </a>
         </div>
@@ -120,7 +115,7 @@
             <ul class="nav navbar-nav" id="menu-gal">
                 
                 
-                <li class="current">
+                <li class="">
                     <a href="/">
                         <i class="fa fa-home"></i>首页
                     </a>
@@ -147,16 +142,36 @@
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href=""></a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
                 
                 
                 <li class="">
+                    <a href="/message">
+                        <i class="fa fa-heart"></i>留言板
+                    </a>
+                </li>
+                
+                
+                
+                <li class="current">
                     <a href="/about">
                         <i class="fa fa-user"></i>关于我
                     </a>
@@ -171,123 +186,53 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 gal-right" id="mainstay">
-                    
-<div class="alert well fade in" id="gal-issue" role="alert">
-    <!-- TODO 添加关闭公告框功能 -->
-    <button type="button" class="close" data-dismiss="alert">×</button>
-    <!-- 这里自行配置公告内容 -->
-    (∂ω∂)
-    <br>
-    孤独如风，<strong>常伴吾身。</strong>
-    <!-- 自行配置公告内容结束 -->
-</div>
+                    <!-- 搜索页面(尽可能接近ZanBlog搜索功能) -->
 
-<div id="article-list">
-     
-     
-     <div class="article well clearfix article-body article-excerpt" data-aos="flip-up">
-    
-    <div class="data-article hidden-xs">
-        <span class="month">02月</span>
-        <span class="day">18</span>
-    </div>
-    <!-- 大型设备文章 -->
-    <section class="hidden-xs">
+
+<article class="article well article-body" id="article">
+    <!-- 大型设备详细文章 -->
+    <div class="hidden-xs">
         <div class="title-article">
             <h1>
-                <a href="/2021/02/18/hello-world/">
-                    <span>Hello World</span>
-                </a>
+                <a href="/about/index.html">关于我</a>
             </h1>
         </div>
         <div class="tag-article">
-            
-            
-            <!-- TODO 添加评论统计 -->
-            <!--<span class="label label-gal">
-                <i class="fa fa-comments"></i>
-                <a href="/2021/02/18/hello-world/#comments">739</a>
-            </span>-->
+            <span class="label label-gal">
+                <i class="fa fa-calendar"></i> 2017-12-30
+            </span>
         </div>
-        <div class="alert alert-gal article-body content-article">
-            <div class="item">
-                <a href="/2021/02/18/hello-world/">
-                    <div class="img">
-                        
-                        <img src="/imgs/preview/preview4.jpg" alt="Hello World">
-                    </div>
-                    <div class="info">
-                        
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="visible-xs">
-        <div class="title-article">
-            <center>
+    </div>
+    <!-- 小型设备详细文章 -->
+    <div class="visible-xs">
+        <center>
+            <div class="title-article">
                 <h4>
-                    <a href="/2021/02/18/hello-world/">
-                        <span>Hello World</span>
-                    </a>
+                    <a href="/about/index.html">关于我</a>
                 </h4>
-            </center>
-        </div>
-        <p></p>
-        <center>
-            <i class="fa fa-calendar"></i> 2021-02-18
-        </center>
-        <p></p>
-        <p></p>
-        <center>
-            
-            
-        </center>
-        <p></p>
-        <div class="alert alert-gal article-body content-article">
-            <p style="text-align: center;">
-                <a href="/2021/02/18/hello-world/">
-                    
-                    <img src="/imgs/preview/preview4.jpg" alt="Hello World">
-                </a>
+            </div>
+            <p>
+                <i class="fa fa-calendar"></i> 1314-5-20
             </p>
-        </div>
-        
-        <a class="btn btn-danger pull-right read-more btn-block" href="/2021/02/18/hello-world/">
-            阅读全文
-            <!--<span class="badge">739</span>-->
-        </a>
-    </section>
-</div>
-     
-</div>
-<!-- 前方最多7个 < 1 2 3 4 5 6 -->
-<!-- 前方超过第7页则分为 < 1 ... (n - 3) (n - 2) (n - 1) n, 此时前面为固定的6个 -->
+        </center>
+    </div>
+    <div class="content-article">
+        <p>标签: Admin小谢</p>
+<p>QQ:1210727679<a href="https://adminxyz666.github.io/‎">godday</a> <br>新的一天, 新的开始。</p>
 
-<!-- 后方最多8个 (n + 1) 到 (n + 7) > -->
-<!-- 如果末页和当前页相差超过7, 此时后面为固定的6个, (n + 1) (n + 2) (n + 3) ... total > -->
+    </div>
+</article>
 
 
+<div id="comments-template"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script>
+	if(!window.commentConfig) {
+      window.commentConfig = {}
+      window.commentConfig.title = '关于我'
+    }
+</script>
 
-<div id="gal-pagination" class="clearfix">
-    <ul class="pagination pagination-gal pull-right">
-        
-        
-        
-        
-        <li class="current">
-            <span>1</span>
-        </li>
-        
-        
-        
-        
-    </ul>
-</div>
-
-<!-- 加上这段代码原因： gitment在首页加载时, 如果找不到对应的控件会报错，此处加上，同时设置为none，防止报错 -->   
-  
-    <div id="comments-template" style="display:none"></div> 
 
                 </div>
                 <aside class="col-md-4 gal-left" id="sidebar">
@@ -296,7 +241,7 @@
     <div class="search hidden-xs" data-aos="fade-up" data-aos-duration="2000">
         <form class="form-inline clearfix" id="search-form" method="get"
               action="/search/index.html">
-            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~" autocomplete="off">
+            <input type="text" name="s" class="form-control" id="searchInput" placeholder="搜索文章~">
             <button class="btn btn-danger btn-gal" type="submit">
                 <i class="fa fa-search"></i>
             </button>
@@ -307,14 +252,13 @@
     <div class="panel panel-gal" data-aos="flip-right" data-aos-duration="3000">
         <div class="panel-heading" style="text-align: center">
             <i class="fa fa-quote-left"></i>
-            Admin小谢
+            AONOSORA
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
-            <img src="/imgs/%E7%90%86%E4%B9%8B%E5%BE%8B%E8%80%85.png" width="140" height="140"
+            <img src="/imgs/avatar.jpg" width="140" height="140"
                  alt="个人头像" class="author-image">
-            <p class="author-description"><p>QQ:1210727679</p>
-</p>
+            <p class="author-description">QQ:1210727679</p>
         </div>
     </div>
 </aside>
@@ -333,6 +277,18 @@
     
     <!-- 要配置好leancloud才能开启此小工具 -->
     
+    <aside id="sidebar-hot_posts">
+    <div class="panel panel-gal hot hidden-xs" data-aos="fade-up" data-aos-duration="2000">
+        <div class="panel-heading">
+            <i class="fa fa-fire"></i>
+            最热文章
+            <i class="fa fa-times-circle panel-remove"></i>
+            <i class="fa fa-chevron-circle-up panel-toggle"></i>
+        </div>
+        <ul class="list-group list-group-flush"></ul>
+    </div>
+</aside>
+    
     
     <aside id="sidebar-recent_posts">
     <div class="panel panel-gal recent hidden-xs" data-aos="fade-up" data-aos-duration="2000">
@@ -346,7 +302,7 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2021/02/18/hello-world/">Hello World</a>
+                    <a href=""></a>
                 </span>
             </li>
             
@@ -368,9 +324,8 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2021/02/18/hello-world/">Hello World</a>
+                    <a href=""></a>
                 </span>
-            </li>
             
         </ul>
     </div>
@@ -380,55 +335,37 @@
     <aside id="gal-sets">
         <div class="panel panel-gal hidden-xs" data-aos="fade-up" data-aos-duration="2000">
             <ul class="nav nav-pills pills-gal">
-
-                
-                <li>
-                    <a href="/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
+                <li class="">
+                    <a href="/about/index.html#sidebar-tags" data-toggle="tab" id="tags-tab">热门标签</a>
                 </li>
-                
-                
-                <li>
-                    <a href="/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
+                <li class="">
+                    <a href="/about/index.html#sidebar-friend-links" data-toggle="tab" id="friend-links-tab">友情链接</a>
                 </li>
-                
-                
-                <li>
-                    <a href="/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
+                <li class="">
+                    <a href="/about/index.html#sidebar-links" data-toggle="tab" id="links-tab">个人链接</a>
                 </li>
-                
             </ul>
             <div class="tab-content">
-                
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
+    <a href="/tags/Vue/" style="font-size: 10.856006331914173px;" class="tag-cloud-link">Vue</a>
+    
+    <a href="/tags/Golang/" style="font-size: 17.425437684969236px;" class="tag-cloud-link">Golang</a>
+    
+    <a href="/tags/galgame/" style="font-size: 12.138108507408083px;" class="tag-cloud-link">galgame</a>
+    
 </div>
-                
-                
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
     
-    <li>
-        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">Admin小谢</a>
-    </li>
-    
-    <li>
-        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">QQ:1210727679</a>
-    </li>
-    
-</div>
-                
-                
-                <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
-    
-    <li>
         <a href="https://github.com/AdminXYZ666/" target="_blank">Github</a>
     </li>
     
     <li>
-        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">QQ</a>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=1210727679&site=qq&menu=yes" target="_blank">QQ</a>
     </li>
+
     
 </div>
-                
             </div>
         </div>
     </aside>
@@ -439,7 +376,7 @@
     </div>
     <footer id="gal-footer">
     <div class="container">
-        Copyright © 2021 Admin小谢 Powered by <a href="https://wpa.qq.com/msgrd?v=3&uin=1210727679&site=qq&menu=yes" target="_blank">QQ:1210727679</a>
+        Copyright © 2021 <%= config.author ? config.author : '' %> Powered by <a href="https://wpa.qq.com/msgrd?v=3&uin=1210727679&site=qq&menu=yes" target="_blank">QQ:1210727679</a>
     </div>
 </footer>
 
@@ -448,9 +385,7 @@
     <i class="fa fa-angle-up"></i>
 </div>
 </body>
-
 <script src="/js/activate-power-mode.js"></script>
-
 <script>
 
     // 配置highslide
@@ -494,42 +429,40 @@
     window.slideConfig = {
       prefix: '/imgs/slide/background',
       ext: 'jpg',
-      maxCount: '11'
+      maxCount: '6'
     }
 </script>
-
 <script src="/js/hs.js"></script>
 <script src="/js/blog.js"></script>
-
-
 
 <script src="/js/oni.js"></script>
 
 
+<script>
+    window.hot_posts_count = '10'
+    // window.use_leancloud = 'true'
+</script>
+<script src="/js/comment/leancloud.js"></script>
 
 
-<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script src="/js/comment/gitment.browser.js"></script>
 <script>
     if(window.commentConfig) {
-      window.commentConfig.id = ''
-      window.commentConfig.owner = 'AdminXYZ666'
-      window.commentConfig.repo = 'https://github.com/AdminXYZ666/AdminXYZ666.github.io.git'
-      window.commentConfig.client_id = 'b047e0c09029c374b11f'
-      window.commentConfig.client_secret = 'ed9e9b6429474d1136c3ab2df71ef874ba78ef7c'
+      window.commentConfig.owner = 'ZEROKISEKI'
+      window.commentConfig.repo = 'gal-comment-repo'
+      window.commentConfig.client_id = '27d3fea0ef621e9ff1e6'
+      window.commentConfig.client_secret = '1c953686c8acde73f925162eb81c229ab4b7ec58'
       window.commentConfig.redirect_uri = ''
     } else {
       window.commentConfig = {
-      	id: '',
-        owner: 'AdminXYZ666',
-        repo: 'https://github.com/AdminXYZ666/AdminXYZ666.github.io.git',
-        client_id: 'b047e0c09029c374b11f',
-        client_secret: 'ed9e9b6429474d1136c3ab2df71ef874ba78ef7c',
+        owner: 'ZEROKISEKI',
+        repo: 'gal-comment-repo',
+        client_id: '27d3fea0ef621e9ff1e6',
+        client_secret: '1c953686c8acde73f925162eb81c229ab4b7ec58',
         redirect_uri: ''
       }
     }
 </script>
-
 <script src="/js/comment/gitment.js"></script>
-
 
 </html>
