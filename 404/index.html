@@ -48,7 +48,7 @@
     <!--<script type="text/javascript">
       if (document.images) {
         var avatar = new Image();
-        avatar.src = '/imgs/avatar.jpg'
+        avatar.src = '/imgs/%E7%90%86%E4%B9%8B%E5%BE%8B%E8%80%85.png'
         var previews = 'preview1.jpg,preview2.jpg,preview3.jpg,preview4.jpg'.split(',')
         var previewsPreLoad = []
         for(var i = 0; i < length; i++) {
@@ -72,6 +72,25 @@
 </section>
     <!-- 欧尼酱功能, 谁用谁知道 -->
     
+    <div class="gal-menu gal-dropdown">
+    <div class="circle" id="gal">
+        <div class="ring">
+            <a href="https://adminxyz666.github.io" class="menuItem" style="left: 50%; top: 15%;">首页</a>
+            
+            <a class="menuItem" style="left: 80.3109%; top: 32.5%;">下一页</a>
+            
+            <a href="/archives" class="menuItem" style="left: 80.3109%; top: 67.5%;">归档</a>
+            <a href="/about" class="menuItem" style="left: 50%; top: 85%;">关于</a>
+            <a href="/message" class="menuItem" style="left: 19.6891%; top: 67.5%;">留言板</a>
+
+            
+            <a class="menuItem" style="left: 19.6891%; top: 32.5%;">上一页</a>
+            
+        </div>
+        <audio id="audio" src="/imgs/oni.mp3"></audio>
+    </div>
+</div>
+    
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
         <div class="navbar-header">
@@ -82,18 +101,17 @@
             </button>
             <a href="https://adminxyz666.github.io">
                 
+                <!-- 这里background使用imgs/${logo_image}(路径文件名) -->
                 <style>
                     #gal-header .navbar-brand {
-                        height: 54px;
-                        line-height: 24px;
-                        font-size: 28px;
-                        opacity: 1;
-                        background-color: rgba(0,0,0,0);
-                        text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #228DFF,0 0 35px #228DFF,0 0 40px #228DFF,0 0 50px #228DFF,0 0 75px #228DFF;
+                        width: 200px;
+                        height: 50px;
+                        display: block;
+                        background: url('/imgs/null') no-repeat;
                     }
                 </style>
-                <!-- 这里使用文字(navbar_text or config.title) -->
-                <div class="navbar-brand">Admin小谢</div>
+                    
+                <div class="navbar-brand"></div>
                 
             </a>
         </div>
@@ -179,7 +197,7 @@
             <i class="fa fa-quote-right"></i>
         </div>
         <div class="author-panel text-center">
-            <img src="/imgs/avatar.jpg" width="140" height="140"
+            <img src="/imgs/%E7%90%86%E4%B9%8B%E5%BE%8B%E8%80%85.png" width="140" height="140"
                  alt="个人头像" class="author-image">
             <p class="author-description"><p>Admin小谢 | QQ:1210727679</p>
 </p>
@@ -275,15 +293,11 @@
                 <div class="friend-links tab-pane nav bs-sidenav fade" id="sidebar-friend-links">
     
     <li>
-        <a href="http://kdays.net/days/" target="_blank">KDays Forum</a>
+        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">Admin小谢</a>
     </li>
     
     <li>
-        <a href="http://www.gal123.com/" target="_blank">绅士导航♂</a>
-    </li>
-    
-    <li>
-        <a href="http://www.moe123.com/" target="_blank">萌导航</a>
+        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">QQ:1210727679</a>
     </li>
     
 </div>
@@ -292,15 +306,11 @@
                 <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
     
     <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
+        <a href="https://github.com/AdminXYZ666/" target="_blank">Github</a>
     </li>
     
     <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
-    </li>
-    
-    <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
+        <a href="https://wpa.qq.com/msgrd?v=3&amp;uin=1210727679&amp;site=qq&amp;menu=yes" target="_blank">QQ</a>
     </li>
     
 </div>
@@ -370,7 +380,7 @@
     window.slideConfig = {
       prefix: '/imgs/slide/background',
       ext: 'jpg',
-      maxCount: '6'
+      maxCount: '11'
     }
 </script>
 
@@ -378,6 +388,34 @@
 <script src="/js/blog.js"></script>
 
 
+
+<script src="/js/oni.js"></script>
+
+
+
+
+<script src="https://myau.moe/js/comment/gitment.browser.js"></script>
+<script>
+    if(window.commentConfig) {
+      window.commentConfig.id = 'Thu Feb 18 2021 19:12:48 GMT+0800'
+      window.commentConfig.owner = 'AdminXYZ666'
+      window.commentConfig.repo = 'https://github.com/AdminXYZ666/AdminXYZ666.github.io.git'
+      window.commentConfig.client_id = 'b047e0c09029c374b11f'
+      window.commentConfig.client_secret = 'ed9e9b6429474d1136c3ab2df71ef874ba78ef7c'
+      window.commentConfig.redirect_uri = ''
+    } else {
+      window.commentConfig = {
+      	id: 'Thu Feb 18 2021 19:12:48 GMT+0800',
+        owner: 'AdminXYZ666',
+        repo: 'https://github.com/AdminXYZ666/AdminXYZ666.github.io.git',
+        client_id: 'b047e0c09029c374b11f',
+        client_secret: 'ed9e9b6429474d1136c3ab2df71ef874ba78ef7c',
+        redirect_uri: ''
+      }
+    }
+</script>
+
+<script src="/js/comment/gitment.js"></script>
 
 
 </html>
