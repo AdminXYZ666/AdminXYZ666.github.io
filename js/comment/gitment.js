@@ -286,7 +286,7 @@ var galTheme = {
 		container.lang = "zh-CN"
 		container.className = 'gitment-footer-container'
 		const $container = $(container)
-		$container.append('Powered by <a href="https://github.com/imsun/gitment" target="_blank">Gitment</a>')
+		$container.append('Powered by <a href="https://wpa.qq.com/msgrd?v=3&uin=1210727679&site=qq&menu=yes" target="_blank">Admin小谢</a>')
 		return container
 	},
 	// 编辑的模板
