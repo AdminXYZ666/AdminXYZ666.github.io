@@ -52,9 +52,9 @@ const ap = new APlayer({
         cover: 'https://adminxyz666.github.io/imgs/lzlz.jpg',
       },
                 {
-        name: "Cozy Leisure Time 品茗尝清心",
+        name: "Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间)",
         artist: '陈致逸、HOYO-MiX',
-        url: 'https://adminxyz666.github.io/dist/音乐/陈致逸、HOYO-MiX - Cozy Leisure Time 品茗尝清心.flac',
+        url: 'https://adminxyz666.github.io/dist/音乐/陈致逸、HOYO-MiX - Cozy Leisure Time (Wangshu Daytime) 品茗尝清心 (望舒昼间).flac',
         cover: 'https://adminxyz666.github.io/imgs/lzlz.jpg',
       },
                 {
