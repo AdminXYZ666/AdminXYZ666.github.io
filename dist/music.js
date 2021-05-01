@@ -72,7 +72,7 @@ const ap = new APlayer({
                 {
         name: "Moon in One's Cup 杯中明月",
         artist: '陈致逸、HOYO-MiX',
-        url: 'https://adminxyz666.github.io/dist/音乐/陈致逸、HOYO-MiX - Moon in One's Cup 杯中明月.flac',
+        url: 'https://adminxyz666.github.io/dist/音乐/陈致逸、HOYO-MiX - Moon in One s Cup 杯中明月.flac',
         cover: 'https://adminxyz666.github.io/imgs/lzlz.jpg',
       },
                 {
